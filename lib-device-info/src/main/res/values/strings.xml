@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="option_select">查看缓存</string>
+    <string name="option_fetch">执行Logcat命令</string>
+    <string name="option_clear">清屏</string>
+    <string name="option_delete">清除缓存</string>
+    <string name="option_command">切换命令</string>
+
+    <string name="log_tips">打开选项菜单,先获取再选择查看</string>
+    <string name="text_confirm">保存并执行</string>
+    <string name="text_cancel">取消</string>
+</resources>

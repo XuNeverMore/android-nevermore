@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.nevermore.demo.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/statusBarFragment"
+        android:name="com.nevermore.demo.fragments.StatusBarFragment"
+        android:label="StatusBarFragment" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.nevermore.demo.fragments.WebViewFragment"
+        android:label="WebViewFragment" />
+    <fragment
+        android:id="@+id/deviceInfoFragment"
+        android:name="com.nevermore.device.info.DeviceInfoFragment"
+        android:label="DeviceInfoFragment" />
+    <fragment
+        android:id="@+id/scrollingFragment"
+        android:name="com.nevermore.demo.fragments.ScrollingFragment"
+        android:label="ScrollingFragment" /><action android:id="@+id/action_global_scrollingFragment" app:destination="@id/scrollingFragment"/>
+    <fragment
+        android:id="@+id/appListFragment"
+        android:name="com.nevermore.demo.fragments.app_list.AppListFragment"
+        android:label="AppListFragment" />
+    <fragment
+        android:id="@+id/poemFragment"
+        android:name="com.nevermore.demo.fragments.PoemFragment"
+        android:label="PoemFragment" />
+    <fragment
+        android:id="@+id/bluetoothMouseFragment"
+        android:name="com.nevermore.demo.fragments.BluetoothMouseFragment"
+        android:label="fragment_bluetooth_mouse"
+        tools:layout="@layout/fragment_bluetooth_mouse" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.nevermore.demo.fragments.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.nevermore.demo.fragments.permission.PermissionFragment"
+        android:label="fragment_permission"
+        tools:layout="@layout/fragment_permission" />
+    <fragment
+        android:id="@+id/drawablesFragment"
+        android:name="com.nevermore.demo.fragments.DrawablesFragment"
+        android:label="fragment_drawables"
+        tools:layout="@layout/fragment_drawables" />
+    <fragment
+        android:id="@+id/widgetsFragment"
+        android:name="com.nevermore.demo.fragments.WidgetsFragment"
+        android:label="fragment_widgets"
+        tools:layout="@layout/fragment_widgets" />
+    <fragment
+        android:id="@+id/multiTypeItemFragment"
+        android:name="com.nevermore.demo.fragments.MultiTypeItemFragment"
+        android:label="fragment_multi_type_item"
+        tools:layout="@layout/fragment_multi_type_item" />
+
+</navigation>

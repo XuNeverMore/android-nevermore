@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:background="#0000ff"
+    android:orientation="vertical"
+    tools:context=".page.BarActivity">
+
+    <Button
+        android:id="@+id/btn_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="白色" />
+
+    <Button
+        android:id="@+id/btn_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="黑色" />
+
+    <Button
+        android:id="@+id/btn_through"
+        android:text="全屏"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_inset"
+        android:text="沉浸"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
