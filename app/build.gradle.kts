@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.nevermore.demo"
+        applicationId = "com.nevermore.android"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
