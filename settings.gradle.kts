@@ -19,8 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "XAndroidDemo"
+rootProject.name = "android-nevermore"
 include(":app")
 include(":lib-base")
 include(":lib-device-info")
-include(":mylibrary")
